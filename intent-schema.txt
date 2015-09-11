@@ -1,0 +1,13 @@
+{
+  "intents": [
+    {
+     "intent": "SiriusXMChannelNameIntent",
+     "slots": [
+        {
+          "name": "channel",
+          "type": "LITERAL"
+        }
+      ]
+    }
+  ]
+}

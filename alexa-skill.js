@@ -144,7 +144,7 @@ function launchSiriusXMWithChannelName(intent, session, callback) {
             accept: '*/*',
             method: 'GET',
             path: '/sendmessage?key=' + KEY + '&message=siriusxm'
-                  + encodeURIComponent(' ' + channel)
+                  + encodeURIComponent('=:=' + channel)
         }, function (res) {
             res.setEncoding('utf8');
             res.on('data', function () {});

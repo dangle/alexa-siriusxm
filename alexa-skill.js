@@ -81,6 +81,9 @@ function onIntent(intentRequest, session, callback) {
         case 'SiriusXMChannelNameIntent':
             launchSiriusXMWithChannelName(intent, session, callback)
             break;
+        case 'SiriusXMStopIntent':
+            stopSiriusXM(callback)
+            break;
         default:
             throw 'Invalid intent';
     }
@@ -97,6 +100,38 @@ function onSessionEnded(sessionEndedRequest, session) {
 
 // --------------- Functions that control the skill's behavior ----------------
 
+function stopSiriusXM(callback) {
+    var sessionAttributes = {};
+    var cardTitle = 'Stop SiriusXM';
+    var speechOutput = '';
+    var repromptText = null;
+    var shouldEndSession = true;
+
+    var request = https.request({
+        host: 'autoremotejoaomgcd.appspot.com',
+        port: 443,
+        accept: '*/*',
+        method: 'GET',
+        path: '/sendmessage?key=' + KEY + '&message=siriusxm'
+              + encodeURIComponent(' stop=:=')
+    }, function (res) {
+        res.setEncoding('utf8');
+        res.on('data', function () {});
+        res.on('end', function () {
+            callback(sessionAttributes,
+                     buildSpeechletResponse(cardTitle, speechOutput,
+                                            repromptText, shouldEndSession));
+        });
+    });
+    request.on('error', function (e) {
+        console.log(e);
+        callback(sessionAttributes,
+                 buildSpeechletResponse(cardTitle, speechOutput, repromptText,
+                                        shouldEndSession));
+    });
+    request.end();
+}
+
 function launchSiriusXM(callback) {
     var sessionAttributes = {};
     var cardTitle = 'Launch SiriusXM';
@@ -110,6 +145,7 @@ function launchSiriusXM(callback) {
         accept: '*/*',
         method: 'GET',
         path: '/sendmessage?key=' + KEY + '&message=siriusxm'
+              + encodeURIComponent(' play=:=')
     }, function (res) {
         res.setEncoding('utf8');
         res.on('data', function () {});
@@ -144,7 +180,7 @@ function launchSiriusXMWithChannelName(intent, session, callback) {
             accept: '*/*',
             method: 'GET',
             path: '/sendmessage?key=' + KEY + '&message=siriusxm'
-                  + encodeURIComponent('=:=' + channel)
+                  + encodeURIComponent(' play=:=' + channel)
         }, function (res) {
             res.setEncoding('utf8');
             res.on('data', function () {});

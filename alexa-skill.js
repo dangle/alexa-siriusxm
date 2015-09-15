@@ -81,6 +81,9 @@ function onIntent(intentRequest, session, callback) {
         case 'SiriusXMChannelNameIntent':
             launchSiriusXMWithChannelName(intent, session, callback)
             break;
+        case 'SiriusXMStopIntent':
+            stopSiriusXM(callback)
+            break;
         default:
             throw 'Invalid intent';
     }
@@ -97,78 +100,92 @@ function onSessionEnded(sessionEndedRequest, session) {
 
 // --------------- Functions that control the skill's behavior ----------------
 
+function stopSiriusXM(callback) {
+    var cardTitle = 'Stopping SiriusXM';
+    var speechOutput = '';
+
+    sendMessage('siriusxm stop',
+        function (res) {
+            res.setEncoding('utf8');
+            res.on('data', function () { });
+            res.on('end', function () {
+                callback({}, buildSpeechletResponse(cardTitle, speechOutput,
+                                                    null, true));
+            });
+        },
+        function (e) {
+            speechOutput = 'Error';
+            console.log(e);
+            callback({}, buildSpeechletResponse(cardTitle, speechOutput,
+                                                null, true));
+        }
+    );
+}
+
 function launchSiriusXM(callback) {
-    var sessionAttributes = {};
     var cardTitle = 'Launch SiriusXM';
     var speechOutput = 'Starting SiriusXM.';
-    var repromptText = null;
-    var shouldEndSession = true;
 
+    sendMessage('siriusxm play',
+        function (res) {
+            res.setEncoding('utf8');
+            res.on('data', function () { });
+            res.on('end', function () {
+                callback({}, buildSpeechletResponse(cardTitle, speechOutput,
+                                                    null, true));
+            });
+        },
+        function (e) {
+            speechOutput = 'Error';
+            console.log(e);
+            callback({}, buildSpeechletResponse(cardTitle, speechOutput,
+                                                null, true));
+        }
+    );
+}
+
+function launchSiriusXMWithChannelName(intent, session, callback) {
+    var cardTitle = 'Launch SiriusXM by Channel Name';
+    var speechOutput = '';
+
+    if (intent.slots.channel) {
+        var channel = intent.slots.channel.value;
+
+        sendMessage('siriusxm play=:=' + channel,
+            function (res) {
+                res.setEncoding('utf8');
+                res.on('data', function () {});
+                res.on('end', function () {
+                    speechOutput = 'Playing ' + channel + ' on SiriusXM.';
+                    callback({}, buildSpeechletResponse(cardTitle,
+                                                        speechOutput, null,
+                                                        true));
+                });
+            },
+            function (e) {
+                console.log(e);
+                callback({}, buildSpeechletResponse(cardTitle, '', null,
+                                                    true));
+            }
+        );
+    } else {
+        speechOutput = 'Sorry.';
+        callback({}, buildSpeechletResponse(cardTitle, speechOutput, null,
+                                            true));
+    }
+}
+
+function sendMessage(message, onSuccess, onFailure) {
     var request = https.request({
         host: 'autoremotejoaomgcd.appspot.com',
         port: 443,
         accept: '*/*',
         method: 'GET',
-        path: '/sendmessage?key=' + KEY + '&message=siriusxm'
-    }, function (res) {
-        res.setEncoding('utf8');
-        res.on('data', function () {});
-        res.on('end', function () {
-            callback(sessionAttributes,
-                     buildSpeechletResponse(cardTitle, speechOutput,
-                                            repromptText, shouldEndSession));
-        });
-    });
-    request.on('error', function (e) {
-        console.log(e);
-        callback(sessionAttributes,
-                 buildSpeechletResponse(cardTitle, speechOutput, repromptText,
-                                        shouldEndSession));
-    });
+        path: '/sendmessage?key=' + KEY + '&message='
+              + encodeURIComponent(channel)
+    }, onSuccess);
+    request.on('error', onFailure);
     request.end();
-}
-
-function launchSiriusXMWithChannelName(intent, session, callback) {
-    var sessionAttributes = {};
-    var cardTitle = 'Launch SiriusXM by Channel Name';
-    var speechOutput = '';
-    var repromptText = null;
-    var shouldEndSession = true;
-
-    if (intent.slots.channel) {
-        var channel = intent.slots.channel.value;
-
-        var request = https.request({
-            host: 'autoremotejoaomgcd.appspot.com',
-            port: 443,
-            accept: '*/*',
-            method: 'GET',
-            path: '/sendmessage?key=' + KEY + '&message=siriusxm'
-                  + encodeURIComponent('=:=' + channel)
-        }, function (res) {
-            res.setEncoding('utf8');
-            res.on('data', function () {});
-            res.on('end', function () {
-                speechOutput = 'Playing ' + channel + ' on SiriusXM.';
-                callback(sessionAttributes,
-                         buildSpeechletResponse(cardTitle, speechOutput,
-                                                repromptText,
-                                                shouldEndSession));
-            });
-        });
-        request.on('error', function (e) {
-            console.log(e);
-            callback(sessionAttributes,
-                     buildSpeechletResponse(cardTitle, speechOutput,
-                                            repromptText, shouldEndSession));
-        });
-        request.end();
-    } else {
-        speechOutput = 'Sorry.';
-        callback(sessionAttributes,
-                 buildSpeechletResponse(cardTitle, speechOutput, repromptText,
-                                        shouldEndSession));
-    }
 }
 
 // --------------- Helpers that build all of the responses --------------------

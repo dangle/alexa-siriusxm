@@ -1,6 +1,10 @@
 {
   "intents": [
     {
+     "intent": "SiriusXMStopIntent",
+     "slots": [ ]
+    },
+    {
      "intent": "SiriusXMChannelNameIntent",
      "slots": [
         {

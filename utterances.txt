@@ -1,3 +1,6 @@
+SiriusXMStopIntent stop
+SiriusXMStopIntent end
+
 SiriusXMChannelNameIntent play {SiriusXM Hits one|channel}
 SiriusXMChannelNameIntent play {Venus|channel}
 SiriusXMChannelNameIntent play {Pitbull's Globalization|channel}
@@ -257,265 +260,265 @@ SiriusXMChannelNameIntent play {Deportes en Vivo nine ninety one|channel}
 SiriusXMChannelNameIntent play {Deportes en Vivo nine ninety two|channel}
 SiriusXMChannelNameIntent play {Deportes en Vivo nine ninety three|channel}
 SiriusXMChannelNameIntent play {Deportes en Vivo nine ninety four|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Hits one|channel}
-SiriusXMChannelNameIntent listen to {Venus|channel}
-SiriusXMChannelNameIntent listen to {Pitbull's Globalization|channel}
-SiriusXMChannelNameIntent listen to {fifties on five|channel}
-SiriusXMChannelNameIntent listen to {sixties on six|channel}
-SiriusXMChannelNameIntent listen to {seventies on seven|channel}
-SiriusXMChannelNameIntent listen to {eighties on eight|channel}
-SiriusXMChannelNameIntent listen to {nineties on nine|channel}
-SiriusXMChannelNameIntent listen to {Pop two K|channel}
-SiriusXMChannelNameIntent listen to {KIIS-Los Angeles|channel}
-SiriusXMChannelNameIntent listen to {Z one hundred new york|channel}
-SiriusXMChannelNameIntent listen to {Velvet|channel}
-SiriusXMChannelNameIntent listen to {The Coffee House|channel}
-SiriusXMChannelNameIntent listen to {The Pulse|channel}
-SiriusXMChannelNameIntent listen to {The Blend|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Love|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Limited Edition|channel}
-SiriusXMChannelNameIntent listen to {Elvis Radio|channel}
-SiriusXMChannelNameIntent listen to {E Street Radio|channel}
-SiriusXMChannelNameIntent listen to {Underground Garage|channel}
-SiriusXMChannelNameIntent listen to {Pearl Jam Radio|channel}
-SiriusXMChannelNameIntent listen to {Grateful Dead Channel|channel}
-SiriusXMChannelNameIntent listen to {Radio Margaritaville|channel}
-SiriusXMChannelNameIntent listen to {Classic Rewind|channel}
-SiriusXMChannelNameIntent listen to {Classic Vinyl|channel}
-SiriusXMChannelNameIntent listen to {Deep Tracks|channel}
-SiriusXMChannelNameIntent listen to {The Spectrum|channel}
-SiriusXMChannelNameIntent listen to {Jam ON|channel}
-SiriusXMChannelNameIntent listen to {The Loft|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM thirty one|channel}
-SiriusXMChannelNameIntent listen to {The Bridge|channel}
-SiriusXMChannelNameIntent listen to {first Wave|channel}
-SiriusXMChannelNameIntent listen to {Lithium|channel}
-SiriusXMChannelNameIntent listen to {SiriusXMU|channel}
-SiriusXMChannelNameIntent listen to {Alt Nation|channel}
-SiriusXMChannelNameIntent listen to {Octane|channel}
-SiriusXMChannelNameIntent listen to {Ozzy's Boneyard|channel}
-SiriusXMChannelNameIntent listen to {Hair Nation|channel}
-SiriusXMChannelNameIntent listen to {Liquid Metal|channel}
-SiriusXMChannelNameIntent listen to {Faction|channel}
-SiriusXMChannelNameIntent listen to {The Joint|channel}
-SiriusXMChannelNameIntent listen to {Backspin|channel}
-SiriusXMChannelNameIntent listen to {Hip-Hop Nation|channel}
-SiriusXMChannelNameIntent listen to {Shade forty five|channel}
-SiriusXMChannelNameIntent listen to {The Heat|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM FLY|channel}
-SiriusXMChannelNameIntent listen to {Heart and Soul|channel}
-SiriusXMChannelNameIntent listen to {Soul Town|channel}
-SiriusXMChannelNameIntent listen to {The Groove|channel}
-SiriusXMChannelNameIntent listen to {BPM|channel}
-SiriusXMChannelNameIntent listen to {Electric Area|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Chill|channel}
-SiriusXMChannelNameIntent listen to {Studio fifty four Radio|channel}
-SiriusXMChannelNameIntent listen to {Utopia|channel}
-SiriusXMChannelNameIntent listen to {The Highway|channel}
-SiriusXMChannelNameIntent listen to {Y two country|channel}
-SiriusXMChannelNameIntent listen to {Prime Country|channel}
-SiriusXMChannelNameIntent listen to {Willie's Roadhouse|channel}
-SiriusXMChannelNameIntent listen to {Outlaw Country|channel}
-SiriusXMChannelNameIntent listen to {Bluegrass Junction|channel}
-SiriusXMChannelNameIntent listen to {The Message|channel}
-SiriusXMChannelNameIntent listen to {Kirk Franklin's Praise|channel}
-SiriusXMChannelNameIntent listen to {enLighten|channel}
-SiriusXMChannelNameIntent listen to {Watercolors|channel}
-SiriusXMChannelNameIntent listen to {Real Jazz|channel}
-SiriusXMChannelNameIntent listen to {Spa|channel}
-SiriusXMChannelNameIntent listen to {Caliente|channel}
-SiriusXMChannelNameIntent listen to {BB King's Bluesville|channel}
-SiriusXMChannelNameIntent listen to {Siriusly Sinatra|channel}
-SiriusXMChannelNameIntent listen to {On Broadway|channel}
-SiriusXMChannelNameIntent listen to {forties Junction|channel}
-SiriusXMChannelNameIntent listen to {Met Opera Radio|channel}
-SiriusXMChannelNameIntent listen to {Symphony Hall|channel}
-SiriusXMChannelNameIntent listen to {KIDZ BOP Radio|channel}
-SiriusXMChannelNameIntent listen to {Kids Place Live|channel}
-SiriusXMChannelNameIntent listen to {Radio Disney|channel}
-SiriusXMChannelNameIntent listen to {ESPN Radio|channel}
-SiriusXMChannelNameIntent listen to {ESPN Xtra|channel}
-SiriusXMChannelNameIntent listen to {Mad Dog Sports Radio|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Bleacher Report Radio|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM College Sports Nation|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM FC|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM NHL Network Radio|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Rush|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Comedy Greats|channel}
-SiriusXMChannelNameIntent listen to {Comedy Central Radio|channel}
-SiriusXMChannelNameIntent listen to {The Foxxhole|channel}
-SiriusXMChannelNameIntent listen to {Jeff and Larry's Comedy Roundup|channel}
-SiriusXMChannelNameIntent listen to {Laugh USA|channel}
-SiriusXMChannelNameIntent listen to {Raw Dog Comedy Hits|channel}
-SiriusXMChannelNameIntent listen to {Howard one hundred|channel}
-SiriusXMChannelNameIntent listen to {Howard one hundred and one|channel}
-SiriusXMChannelNameIntent listen to {Radio Andy|channel}
-SiriusXMChannelNameIntent listen to {Entertainment Weekly Radio|channel}
-SiriusXMChannelNameIntent listen to {OutQ|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Stars|channel}
-SiriusXMChannelNameIntent listen to {Doctor Radio|channel}
-SiriusXMChannelNameIntent listen to {Business Radio|channel}
-SiriusXMChannelNameIntent listen to {CNBC|channel}
-SiriusXMChannelNameIntent listen to {FOX Business|channel}
-SiriusXMChannelNameIntent listen to {FOX News Channel|channel}
-SiriusXMChannelNameIntent listen to {FOX News Headlines twenty four seven|channel}
-SiriusXMChannelNameIntent listen to {CNN|channel}
-SiriusXMChannelNameIntent listen to {HLN|channel}
-SiriusXMChannelNameIntent listen to {MSNBC|channel}
-SiriusXMChannelNameIntent listen to {Bloomberg Radio|channel}
-SiriusXMChannelNameIntent listen to {BBC World Service|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Insight|channel}
-SiriusXMChannelNameIntent listen to {NPR Now|channel}
-SiriusXMChannelNameIntent listen to {PRX Public Radio|channel}
-SiriusXMChannelNameIntent listen to {POTUS Politics|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Patriot|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Urban View|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Progress|channel}
-SiriusXMChannelNameIntent listen to {Joel Osteen Radio|channel}
-SiriusXMChannelNameIntent listen to {The Catholic Channel|channel}
-SiriusXMChannelNameIntent listen to {EWTN Radio|channel}
-SiriusXMChannelNameIntent listen to {Family Talk|channel}
-SiriusXMChannelNameIntent listen to {HUR Voices|channel}
-SiriusXMChannelNameIntent listen to {HBCU|channel}
-SiriusXMChannelNameIntent listen to {BYU Radio|channel}
-SiriusXMChannelNameIntent listen to {Korea Today|channel}
-SiriusXMChannelNameIntent listen to {Road Dog Trucking|channel}
-SiriusXMChannelNameIntent listen to {RURAL RADIO|channel}
-SiriusXMChannelNameIntent listen to {RadioClassics|channel}
-SiriusXMChannelNameIntent listen to {En Vivo|channel}
-SiriusXMChannelNameIntent listen to {Cristina Radio|channel}
-SiriusXMChannelNameIntent listen to {American Latino Radio|channel}
-SiriusXMChannelNameIntent listen to {CNN en Espanol|channel}
-SiriusXMChannelNameIntent listen to {ESPN Deportes|channel}
-SiriusXMChannelNameIntent listen to {CBC Radio three|channel}
-SiriusXMChannelNameIntent listen to {Ici Musique Chansons|channel}
-SiriusXMChannelNameIntent listen to {Multicultural Radio|channel}
-SiriusXMChannelNameIntent listen to {Ici Musique FrancoCountry|channel}
-SiriusXMChannelNameIntent listen to {Canada Talks|channel}
-SiriusXMChannelNameIntent listen to {Canada Laughs|channel}
-SiriusXMChannelNameIntent listen to {CBC Radio One|channel}
-SiriusXMChannelNameIntent listen to {Ici Premiere|channel}
-SiriusXMChannelNameIntent listen to {CBC Country|channel}
-SiriusXMChannelNameIntent listen to {Canada three sixty by AMI|channel}
-SiriusXMChannelNameIntent listen to {The Verge|channel}
-SiriusXMChannelNameIntent listen to {Influence Franco|channel}
-SiriusXMChannelNameIntent listen to {Opie Radio|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM PGA TOUR Radio|channel}
-SiriusXMChannelNameIntent listen to {MLB Network Radio|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Fantasy Sports Radio|channel}
-SiriusXMChannelNameIntent listen to {Poptropolis|channel}
-SiriusXMChannelNameIntent listen to {Aguila|channel}
-SiriusXMChannelNameIntent listen to {Caricia|channel}
-SiriusXMChannelNameIntent listen to {Viva|channel}
-SiriusXMChannelNameIntent listen to {Rock and Roll Hall of Fame Radio|channel}
-SiriusXMChannelNameIntent listen to {Tom Petty's Buried Treasure|channel}
-SiriusXMChannelNameIntent listen to {RockBar|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Turbo|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Comes Alive|channel}
-SiriusXMChannelNameIntent listen to {Classic College Radio|channel}
-SiriusXMChannelNameIntent listen to {Tiesto's Club Life Radio|channel}
-SiriusXMChannelNameIntent listen to {Red White and Booze|channel}
-SiriusXMChannelNameIntent listen to {Krishna Das Yoga Radio|channel}
-SiriusXMChannelNameIntent listen to {SportsCenter|channel}
-SiriusXMChannelNameIntent listen to {Carlin's Corner|channel}
-SiriusXMChannelNameIntent listen to {Just For Laughs Radio|channel}
-SiriusXMChannelNameIntent listen to {FOX News Talk|channel}
-SiriusXMChannelNameIntent listen to {C-SPAN Radio|channel}
-SiriusXMChannelNameIntent listen to {EL PAISA|channel}
-SiriusXMChannelNameIntent listen to {Neil Diamond Radio|channel}
-SiriusXMChannelNameIntent listen to {Elevations|channel}
-SiriusXMChannelNameIntent listen to {Jason Ellis|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Limited Edition two|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Limited Edition three|channel}
-SiriusXMChannelNameIntent listen to {Sway's Universe|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Limited Edition four|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Silk|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Limited Edition five|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Limited Edition six|channel}
-SiriusXMChannelNameIntent listen to {The Village|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Limited Edition seven|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Limited Edition eight|channel}
-SiriusXMChannelNameIntent listen to {Cinemagic|channel}
-SiriusXMChannelNameIntent listen to {Escape|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Limited Edition nine|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Pops|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Limited Edition ten|channel}
-SiriusXMChannelNameIntent listen to {Iceberg|channel}
-SiriusXMChannelNameIntent listen to {Attitude Franco|channel}
-SiriusXMChannelNameIntent listen to {Latidos|channel}
-SiriusXMChannelNameIntent listen to {Flow Nacion|channel}
-SiriusXMChannelNameIntent listen to {Luna|channel}
-SiriusXMChannelNameIntent listen to {Rumbon|channel}
-SiriusXMChannelNameIntent listen to {La Kueva|channel}
-SiriusXMChannelNameIntent listen to {seventies and eighties Pop|channel}
-SiriusXMChannelNameIntent listen to {eighties and nineties Pop|channel}
-SiriusXMChannelNameIntent listen to {nineties and two thousands Pop|channel}
-SiriusXMChannelNameIntent listen to {Classic Rock Party|channel}
-SiriusXMChannelNameIntent listen to {Rockin' Frat Party|channel}
-SiriusXMChannelNameIntent listen to {Hip-Hop Party|channel}
-SiriusXMChannelNameIntent listen to {Oldies Party|channel}
-SiriusXMChannelNameIntent listen to {Pop Party Mix|channel}
-SiriusXMChannelNameIntent listen to {Punk Party|channel}
-SiriusXMChannelNameIntent listen to {New Wave Dance Party|channel}
-SiriusXMChannelNameIntent listen to {The Girls' Room|channel}
-SiriusXMChannelNameIntent listen to {Holly|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Limited Edition eleven|channel}
-SiriusXMChannelNameIntent listen to {Vivid Radio|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Preview|channel}
-SiriusXMChannelNameIntent listen to {TheBlaze Radio Network|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Patriot Plus|channel}
-SiriusXMChannelNameIntent listen to {SiriusXM Progress Plus|channel}
-SiriusXMChannelNameIntent listen to {Arizona Diamondbacks|channel}
-SiriusXMChannelNameIntent listen to {Atlanta Braves|channel}
-SiriusXMChannelNameIntent listen to {Baltimore Orioles|channel}
-SiriusXMChannelNameIntent listen to {Boston Red Sox|channel}
-SiriusXMChannelNameIntent listen to {Chicago Cubs|channel}
-SiriusXMChannelNameIntent listen to {Chicago White Sox|channel}
-SiriusXMChannelNameIntent listen to {Cincinnati Reds|channel}
-SiriusXMChannelNameIntent listen to {Cleveland Indians|channel}
-SiriusXMChannelNameIntent listen to {Colorado Rockies|channel}
-SiriusXMChannelNameIntent listen to {Detroit Tigers|channel}
-SiriusXMChannelNameIntent listen to {Houston Astros|channel}
-SiriusXMChannelNameIntent listen to {Kansas City Royals|channel}
-SiriusXMChannelNameIntent listen to {Los Angeles Angels|channel}
-SiriusXMChannelNameIntent listen to {Los Angeles Dodgers|channel}
-SiriusXMChannelNameIntent listen to {Miami Marlins|channel}
-SiriusXMChannelNameIntent listen to {Milwaukee Brewers|channel}
-SiriusXMChannelNameIntent listen to {Minnesota Twins|channel}
-SiriusXMChannelNameIntent listen to {New York Mets|channel}
-SiriusXMChannelNameIntent listen to {New York Yankees|channel}
-SiriusXMChannelNameIntent listen to {Oakland Athletics|channel}
-SiriusXMChannelNameIntent listen to {Philadelphia Phillies|channel}
-SiriusXMChannelNameIntent listen to {Pittsburgh Pirates|channel}
-SiriusXMChannelNameIntent listen to {San Diego Padres|channel}
-SiriusXMChannelNameIntent listen to {San Francisco Giants|channel}
-SiriusXMChannelNameIntent listen to {Seattle Mariners|channel}
-SiriusXMChannelNameIntent listen to {St. Louis Cardinals|channel}
-SiriusXMChannelNameIntent listen to {Tampa Bay Rays|channel}
-SiriusXMChannelNameIntent listen to {Texas Rangers|channel}
-SiriusXMChannelNameIntent listen to {Toronto Blue Jays|channel}
-SiriusXMChannelNameIntent listen to {Washington Nationals|channel}
-SiriusXMChannelNameIntent listen to {Sports Play-by-Play nine sixty|channel}
-SiriusXMChannelNameIntent listen to {Sports Play-by-Play nine sixty one|channel}
-SiriusXMChannelNameIntent listen to {Sports Play-by-Play nine sixty two|channel}
-SiriusXMChannelNameIntent listen to {Sports Play-by-Play nine sixty three|channel}
-SiriusXMChannelNameIntent listen to {Sports Play-by-Play nine sixty four|channel}
-SiriusXMChannelNameIntent listen to {Sports Play-by-Play nine sixty five|channel}
-SiriusXMChannelNameIntent listen to {Sports Play-by-Play nine sixty six|channel}
-SiriusXMChannelNameIntent listen to {Sports Play-by-Play nine sixty seven|channel}
-SiriusXMChannelNameIntent listen to {Deportes en Vivo nine eighty two|channel}
-SiriusXMChannelNameIntent listen to {Deportes en Vivo nine eighty three|channel}
-SiriusXMChannelNameIntent listen to {Deportes en Vivo nine eighty four|channel}
-SiriusXMChannelNameIntent listen to {Deportes en Vivo nine eighty five|channel}
-SiriusXMChannelNameIntent listen to {Deportes en Vivo nine eighty six|channel}
-SiriusXMChannelNameIntent listen to {Deportes en Vivo nine eighty seven|channel}
-SiriusXMChannelNameIntent listen to {Deportes en Vivo nine eighty eight|channel}
-SiriusXMChannelNameIntent listen to {Deportes en Vivo nine eighty nine|channel}
-SiriusXMChannelNameIntent listen to {Deportes en Vivo nine ninety|channel}
-SiriusXMChannelNameIntent listen to {Deportes en Vivo nine ninety one|channel}
-SiriusXMChannelNameIntent listen to {Deportes en Vivo nine ninety two|channel}
-SiriusXMChannelNameIntent listen to {Deportes en Vivo nine ninety three|channel}
-SiriusXMChannelNameIntent listen to {Deportes en Vivo nine ninety four|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Hits one|channel}
+SiriusXMChannelNameIntent switch to {Venus|channel}
+SiriusXMChannelNameIntent switch to {Pitbull's Globalization|channel}
+SiriusXMChannelNameIntent switch to {fifties on five|channel}
+SiriusXMChannelNameIntent switch to {sixties on six|channel}
+SiriusXMChannelNameIntent switch to {seventies on seven|channel}
+SiriusXMChannelNameIntent switch to {eighties on eight|channel}
+SiriusXMChannelNameIntent switch to {nineties on nine|channel}
+SiriusXMChannelNameIntent switch to {Pop two K|channel}
+SiriusXMChannelNameIntent switch to {KIIS-Los Angeles|channel}
+SiriusXMChannelNameIntent switch to {Z one hundred new york|channel}
+SiriusXMChannelNameIntent switch to {Velvet|channel}
+SiriusXMChannelNameIntent switch to {The Coffee House|channel}
+SiriusXMChannelNameIntent switch to {The Pulse|channel}
+SiriusXMChannelNameIntent switch to {The Blend|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Love|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Limited Edition|channel}
+SiriusXMChannelNameIntent switch to {Elvis Radio|channel}
+SiriusXMChannelNameIntent switch to {E Street Radio|channel}
+SiriusXMChannelNameIntent switch to {Underground Garage|channel}
+SiriusXMChannelNameIntent switch to {Pearl Jam Radio|channel}
+SiriusXMChannelNameIntent switch to {Grateful Dead Channel|channel}
+SiriusXMChannelNameIntent switch to {Radio Margaritaville|channel}
+SiriusXMChannelNameIntent switch to {Classic Rewind|channel}
+SiriusXMChannelNameIntent switch to {Classic Vinyl|channel}
+SiriusXMChannelNameIntent switch to {Deep Tracks|channel}
+SiriusXMChannelNameIntent switch to {The Spectrum|channel}
+SiriusXMChannelNameIntent switch to {Jam ON|channel}
+SiriusXMChannelNameIntent switch to {The Loft|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM thirty one|channel}
+SiriusXMChannelNameIntent switch to {The Bridge|channel}
+SiriusXMChannelNameIntent switch to {first Wave|channel}
+SiriusXMChannelNameIntent switch to {Lithium|channel}
+SiriusXMChannelNameIntent switch to {SiriusXMU|channel}
+SiriusXMChannelNameIntent switch to {Alt Nation|channel}
+SiriusXMChannelNameIntent switch to {Octane|channel}
+SiriusXMChannelNameIntent switch to {Ozzy's Boneyard|channel}
+SiriusXMChannelNameIntent switch to {Hair Nation|channel}
+SiriusXMChannelNameIntent switch to {Liquid Metal|channel}
+SiriusXMChannelNameIntent switch to {Faction|channel}
+SiriusXMChannelNameIntent switch to {The Joint|channel}
+SiriusXMChannelNameIntent switch to {Backspin|channel}
+SiriusXMChannelNameIntent switch to {Hip-Hop Nation|channel}
+SiriusXMChannelNameIntent switch to {Shade forty five|channel}
+SiriusXMChannelNameIntent switch to {The Heat|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM FLY|channel}
+SiriusXMChannelNameIntent switch to {Heart and Soul|channel}
+SiriusXMChannelNameIntent switch to {Soul Town|channel}
+SiriusXMChannelNameIntent switch to {The Groove|channel}
+SiriusXMChannelNameIntent switch to {BPM|channel}
+SiriusXMChannelNameIntent switch to {Electric Area|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Chill|channel}
+SiriusXMChannelNameIntent switch to {Studio fifty four Radio|channel}
+SiriusXMChannelNameIntent switch to {Utopia|channel}
+SiriusXMChannelNameIntent switch to {The Highway|channel}
+SiriusXMChannelNameIntent switch to {Y two country|channel}
+SiriusXMChannelNameIntent switch to {Prime Country|channel}
+SiriusXMChannelNameIntent switch to {Willie's Roadhouse|channel}
+SiriusXMChannelNameIntent switch to {Outlaw Country|channel}
+SiriusXMChannelNameIntent switch to {Bluegrass Junction|channel}
+SiriusXMChannelNameIntent switch to {The Message|channel}
+SiriusXMChannelNameIntent switch to {Kirk Franklin's Praise|channel}
+SiriusXMChannelNameIntent switch to {enLighten|channel}
+SiriusXMChannelNameIntent switch to {Watercolors|channel}
+SiriusXMChannelNameIntent switch to {Real Jazz|channel}
+SiriusXMChannelNameIntent switch to {Spa|channel}
+SiriusXMChannelNameIntent switch to {Caliente|channel}
+SiriusXMChannelNameIntent switch to {BB King's Bluesville|channel}
+SiriusXMChannelNameIntent switch to {Siriusly Sinatra|channel}
+SiriusXMChannelNameIntent switch to {On Broadway|channel}
+SiriusXMChannelNameIntent switch to {forties Junction|channel}
+SiriusXMChannelNameIntent switch to {Met Opera Radio|channel}
+SiriusXMChannelNameIntent switch to {Symphony Hall|channel}
+SiriusXMChannelNameIntent switch to {KIDZ BOP Radio|channel}
+SiriusXMChannelNameIntent switch to {Kids Place Live|channel}
+SiriusXMChannelNameIntent switch to {Radio Disney|channel}
+SiriusXMChannelNameIntent switch to {ESPN Radio|channel}
+SiriusXMChannelNameIntent switch to {ESPN Xtra|channel}
+SiriusXMChannelNameIntent switch to {Mad Dog Sports Radio|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Bleacher Report Radio|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM College Sports Nation|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM FC|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM NHL Network Radio|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Rush|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Comedy Greats|channel}
+SiriusXMChannelNameIntent switch to {Comedy Central Radio|channel}
+SiriusXMChannelNameIntent switch to {The Foxxhole|channel}
+SiriusXMChannelNameIntent switch to {Jeff and Larry's Comedy Roundup|channel}
+SiriusXMChannelNameIntent switch to {Laugh USA|channel}
+SiriusXMChannelNameIntent switch to {Raw Dog Comedy Hits|channel}
+SiriusXMChannelNameIntent switch to {Howard one hundred|channel}
+SiriusXMChannelNameIntent switch to {Howard one hundred and one|channel}
+SiriusXMChannelNameIntent switch to {Radio Andy|channel}
+SiriusXMChannelNameIntent switch to {Entertainment Weekly Radio|channel}
+SiriusXMChannelNameIntent switch to {OutQ|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Stars|channel}
+SiriusXMChannelNameIntent switch to {Doctor Radio|channel}
+SiriusXMChannelNameIntent switch to {Business Radio|channel}
+SiriusXMChannelNameIntent switch to {CNBC|channel}
+SiriusXMChannelNameIntent switch to {FOX Business|channel}
+SiriusXMChannelNameIntent switch to {FOX News Channel|channel}
+SiriusXMChannelNameIntent switch to {FOX News Headlines twenty four seven|channel}
+SiriusXMChannelNameIntent switch to {CNN|channel}
+SiriusXMChannelNameIntent switch to {HLN|channel}
+SiriusXMChannelNameIntent switch to {MSNBC|channel}
+SiriusXMChannelNameIntent switch to {Bloomberg Radio|channel}
+SiriusXMChannelNameIntent switch to {BBC World Service|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Insight|channel}
+SiriusXMChannelNameIntent switch to {NPR Now|channel}
+SiriusXMChannelNameIntent switch to {PRX Public Radio|channel}
+SiriusXMChannelNameIntent switch to {POTUS Politics|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Patriot|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Urban View|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Progress|channel}
+SiriusXMChannelNameIntent switch to {Joel Osteen Radio|channel}
+SiriusXMChannelNameIntent switch to {The Catholic Channel|channel}
+SiriusXMChannelNameIntent switch to {EWTN Radio|channel}
+SiriusXMChannelNameIntent switch to {Family Talk|channel}
+SiriusXMChannelNameIntent switch to {HUR Voices|channel}
+SiriusXMChannelNameIntent switch to {HBCU|channel}
+SiriusXMChannelNameIntent switch to {BYU Radio|channel}
+SiriusXMChannelNameIntent switch to {Korea Today|channel}
+SiriusXMChannelNameIntent switch to {Road Dog Trucking|channel}
+SiriusXMChannelNameIntent switch to {RURAL RADIO|channel}
+SiriusXMChannelNameIntent switch to {RadioClassics|channel}
+SiriusXMChannelNameIntent switch to {En Vivo|channel}
+SiriusXMChannelNameIntent switch to {Cristina Radio|channel}
+SiriusXMChannelNameIntent switch to {American Latino Radio|channel}
+SiriusXMChannelNameIntent switch to {CNN en Espanol|channel}
+SiriusXMChannelNameIntent switch to {ESPN Deportes|channel}
+SiriusXMChannelNameIntent switch to {CBC Radio three|channel}
+SiriusXMChannelNameIntent switch to {Ici Musique Chansons|channel}
+SiriusXMChannelNameIntent switch to {Multicultural Radio|channel}
+SiriusXMChannelNameIntent switch to {Ici Musique FrancoCountry|channel}
+SiriusXMChannelNameIntent switch to {Canada Talks|channel}
+SiriusXMChannelNameIntent switch to {Canada Laughs|channel}
+SiriusXMChannelNameIntent switch to {CBC Radio One|channel}
+SiriusXMChannelNameIntent switch to {Ici Premiere|channel}
+SiriusXMChannelNameIntent switch to {CBC Country|channel}
+SiriusXMChannelNameIntent switch to {Canada three sixty by AMI|channel}
+SiriusXMChannelNameIntent switch to {The Verge|channel}
+SiriusXMChannelNameIntent switch to {Influence Franco|channel}
+SiriusXMChannelNameIntent switch to {Opie Radio|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM PGA TOUR Radio|channel}
+SiriusXMChannelNameIntent switch to {MLB Network Radio|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Fantasy Sports Radio|channel}
+SiriusXMChannelNameIntent switch to {Poptropolis|channel}
+SiriusXMChannelNameIntent switch to {Aguila|channel}
+SiriusXMChannelNameIntent switch to {Caricia|channel}
+SiriusXMChannelNameIntent switch to {Viva|channel}
+SiriusXMChannelNameIntent switch to {Rock and Roll Hall of Fame Radio|channel}
+SiriusXMChannelNameIntent switch to {Tom Petty's Buried Treasure|channel}
+SiriusXMChannelNameIntent switch to {RockBar|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Turbo|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Comes Alive|channel}
+SiriusXMChannelNameIntent switch to {Classic College Radio|channel}
+SiriusXMChannelNameIntent switch to {Tiesto's Club Life Radio|channel}
+SiriusXMChannelNameIntent switch to {Red White and Booze|channel}
+SiriusXMChannelNameIntent switch to {Krishna Das Yoga Radio|channel}
+SiriusXMChannelNameIntent switch to {SportsCenter|channel}
+SiriusXMChannelNameIntent switch to {Carlin's Corner|channel}
+SiriusXMChannelNameIntent switch to {Just For Laughs Radio|channel}
+SiriusXMChannelNameIntent switch to {FOX News Talk|channel}
+SiriusXMChannelNameIntent switch to {C-SPAN Radio|channel}
+SiriusXMChannelNameIntent switch to {EL PAISA|channel}
+SiriusXMChannelNameIntent switch to {Neil Diamond Radio|channel}
+SiriusXMChannelNameIntent switch to {Elevations|channel}
+SiriusXMChannelNameIntent switch to {Jason Ellis|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Limited Edition two|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Limited Edition three|channel}
+SiriusXMChannelNameIntent switch to {Sway's Universe|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Limited Edition four|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Silk|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Limited Edition five|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Limited Edition six|channel}
+SiriusXMChannelNameIntent switch to {The Village|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Limited Edition seven|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Limited Edition eight|channel}
+SiriusXMChannelNameIntent switch to {Cinemagic|channel}
+SiriusXMChannelNameIntent switch to {Escape|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Limited Edition nine|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Pops|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Limited Edition ten|channel}
+SiriusXMChannelNameIntent switch to {Iceberg|channel}
+SiriusXMChannelNameIntent switch to {Attitude Franco|channel}
+SiriusXMChannelNameIntent switch to {Latidos|channel}
+SiriusXMChannelNameIntent switch to {Flow Nacion|channel}
+SiriusXMChannelNameIntent switch to {Luna|channel}
+SiriusXMChannelNameIntent switch to {Rumbon|channel}
+SiriusXMChannelNameIntent switch to {La Kueva|channel}
+SiriusXMChannelNameIntent switch to {seventies and eighties Pop|channel}
+SiriusXMChannelNameIntent switch to {eighties and nineties Pop|channel}
+SiriusXMChannelNameIntent switch to {nineties and two thousands Pop|channel}
+SiriusXMChannelNameIntent switch to {Classic Rock Party|channel}
+SiriusXMChannelNameIntent switch to {Rockin' Frat Party|channel}
+SiriusXMChannelNameIntent switch to {Hip-Hop Party|channel}
+SiriusXMChannelNameIntent switch to {Oldies Party|channel}
+SiriusXMChannelNameIntent switch to {Pop Party Mix|channel}
+SiriusXMChannelNameIntent switch to {Punk Party|channel}
+SiriusXMChannelNameIntent switch to {New Wave Dance Party|channel}
+SiriusXMChannelNameIntent switch to {The Girls' Room|channel}
+SiriusXMChannelNameIntent switch to {Holly|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Limited Edition eleven|channel}
+SiriusXMChannelNameIntent switch to {Vivid Radio|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Preview|channel}
+SiriusXMChannelNameIntent switch to {TheBlaze Radio Network|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Patriot Plus|channel}
+SiriusXMChannelNameIntent switch to {SiriusXM Progress Plus|channel}
+SiriusXMChannelNameIntent switch to {Arizona Diamondbacks|channel}
+SiriusXMChannelNameIntent switch to {Atlanta Braves|channel}
+SiriusXMChannelNameIntent switch to {Baltimore Orioles|channel}
+SiriusXMChannelNameIntent switch to {Boston Red Sox|channel}
+SiriusXMChannelNameIntent switch to {Chicago Cubs|channel}
+SiriusXMChannelNameIntent switch to {Chicago White Sox|channel}
+SiriusXMChannelNameIntent switch to {Cincinnati Reds|channel}
+SiriusXMChannelNameIntent switch to {Cleveland Indians|channel}
+SiriusXMChannelNameIntent switch to {Colorado Rockies|channel}
+SiriusXMChannelNameIntent switch to {Detroit Tigers|channel}
+SiriusXMChannelNameIntent switch to {Houston Astros|channel}
+SiriusXMChannelNameIntent switch to {Kansas City Royals|channel}
+SiriusXMChannelNameIntent switch to {Los Angeles Angels|channel}
+SiriusXMChannelNameIntent switch to {Los Angeles Dodgers|channel}
+SiriusXMChannelNameIntent switch to {Miami Marlins|channel}
+SiriusXMChannelNameIntent switch to {Milwaukee Brewers|channel}
+SiriusXMChannelNameIntent switch to {Minnesota Twins|channel}
+SiriusXMChannelNameIntent switch to {New York Mets|channel}
+SiriusXMChannelNameIntent switch to {New York Yankees|channel}
+SiriusXMChannelNameIntent switch to {Oakland Athletics|channel}
+SiriusXMChannelNameIntent switch to {Philadelphia Phillies|channel}
+SiriusXMChannelNameIntent switch to {Pittsburgh Pirates|channel}
+SiriusXMChannelNameIntent switch to {San Diego Padres|channel}
+SiriusXMChannelNameIntent switch to {San Francisco Giants|channel}
+SiriusXMChannelNameIntent switch to {Seattle Mariners|channel}
+SiriusXMChannelNameIntent switch to {St. Louis Cardinals|channel}
+SiriusXMChannelNameIntent switch to {Tampa Bay Rays|channel}
+SiriusXMChannelNameIntent switch to {Texas Rangers|channel}
+SiriusXMChannelNameIntent switch to {Toronto Blue Jays|channel}
+SiriusXMChannelNameIntent switch to {Washington Nationals|channel}
+SiriusXMChannelNameIntent switch to {Sports Play-by-Play nine sixty|channel}
+SiriusXMChannelNameIntent switch to {Sports Play-by-Play nine sixty one|channel}
+SiriusXMChannelNameIntent switch to {Sports Play-by-Play nine sixty two|channel}
+SiriusXMChannelNameIntent switch to {Sports Play-by-Play nine sixty three|channel}
+SiriusXMChannelNameIntent switch to {Sports Play-by-Play nine sixty four|channel}
+SiriusXMChannelNameIntent switch to {Sports Play-by-Play nine sixty five|channel}
+SiriusXMChannelNameIntent switch to {Sports Play-by-Play nine sixty six|channel}
+SiriusXMChannelNameIntent switch to {Sports Play-by-Play nine sixty seven|channel}
+SiriusXMChannelNameIntent switch to {Deportes en Vivo nine eighty two|channel}
+SiriusXMChannelNameIntent switch to {Deportes en Vivo nine eighty three|channel}
+SiriusXMChannelNameIntent switch to {Deportes en Vivo nine eighty four|channel}
+SiriusXMChannelNameIntent switch to {Deportes en Vivo nine eighty five|channel}
+SiriusXMChannelNameIntent switch to {Deportes en Vivo nine eighty six|channel}
+SiriusXMChannelNameIntent switch to {Deportes en Vivo nine eighty seven|channel}
+SiriusXMChannelNameIntent switch to {Deportes en Vivo nine eighty eight|channel}
+SiriusXMChannelNameIntent switch to {Deportes en Vivo nine eighty nine|channel}
+SiriusXMChannelNameIntent switch to {Deportes en Vivo nine ninety|channel}
+SiriusXMChannelNameIntent switch to {Deportes en Vivo nine ninety one|channel}
+SiriusXMChannelNameIntent switch to {Deportes en Vivo nine ninety two|channel}
+SiriusXMChannelNameIntent switch to {Deportes en Vivo nine ninety three|channel}
+SiriusXMChannelNameIntent switch to {Deportes en Vivo nine ninety four|channel}
 SiriusXMChannelNameIntent start {SiriusXM Hits one|channel}
 SiriusXMChannelNameIntent start {Venus|channel}
 SiriusXMChannelNameIntent start {Pitbull's Globalization|channel}
